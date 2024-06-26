@@ -4,7 +4,7 @@ const colors = require("colors");
  const morgan = require("morgan");
  const connectDB = require("./config/db");
  const authRoutes = require("./routes/authRoute");
-
+const cors = require("cors")
 //configure env
 dotenv.config();
 
@@ -15,6 +15,7 @@ connectDB();
 const app = express();
 
 // //middelwares
+app.use(cors());
  app.use(express.json());
  app.use(morgan("dev"));
 
