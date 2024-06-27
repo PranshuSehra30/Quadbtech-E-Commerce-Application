@@ -75,6 +75,8 @@ import CreateCategory from './pages/Admin/CreateCategory';
 import Users from './pages/Admin/Users';
 import Orders from './pages/user/Orders';
 import { Profile } from './pages/user/Profile';
+import Products from './pages/Admin/Products';
+import UpdateProduct from './pages/Admin/UpdateProduct';
  // Ensure Header is included
 
 function App() {
@@ -103,6 +105,8 @@ function App() {
         <Route path="/dashboard" element={<PrivateAdminRoute />}>
         
         <Route path="admin/create-product" element={<CreateProduct />} />
+        <Route path="admin/products" element={<Products />} />
+        <Route path="admin/product/:slug" element={<UpdateProduct />} />
         <Route path="admin/create-category" element={<CreateCategory />} />
         <Route path="admin/create-users" element={<Users />} />
           <Route path="admin" element={<AdminDashboard />} />

@@ -152,3 +152,7 @@ flex-direction: column}
   font-size: 14px;
   margin-top: 5px;
 }
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
