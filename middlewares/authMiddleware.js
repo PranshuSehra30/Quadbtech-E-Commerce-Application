@@ -3,10 +3,12 @@ const userModel = require("../models/userModel");
 
 // Protected Routes token base
 const requireSignIn = async (req, res, next) => {
+   
   try {
     const decode = JWT.verify(
-      req.headers.authorization,
+      req.headers.token,
       process.env.JWT_SECRET
+      
     );
     req.user = decode;
     next();
