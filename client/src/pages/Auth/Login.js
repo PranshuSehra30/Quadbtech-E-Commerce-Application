@@ -2,20 +2,39 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate , useLocation } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { login } from '../../redux/authSlice';
 import Layout from '../../components/layout/Layout';
-
+import { useAuth } from '../../context/auth1';
 const Login = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const [auth, setAuth ] = useAuth();
   const { register, handleSubmit, formState: { errors } } = useForm();
-
+const location = useLocation();
   const onSubmit = async (data) => {
     try {
       const response = await axios.post(`${process.env.REACT_APP_API}/api/v1/auth/login`, data);
 
       if (response.status === 200) {
+        const { user, token } = response.data;
+        const authData = { user, token };
+
+        // Store user data in Redux
+        dispatch(login(authData));
+
+        // Store user data in localStorage
+        localStorage.setItem('authData', JSON.stringify(authData));
+       
+   setAuth({
+    ...auth,
+    user: response.data.user,
+    token: response.data.token,
+   });
+   localStorage.setItem('auth', JSON.stringify(response.data));
         toast.success(response.data.message);
-        navigate('/'); // Assuming there's a dashboard route after login
+        navigate(location.state || '/');
       } else {
         toast.error(response.data.message);
       }
