@@ -2,7 +2,7 @@
 import React from "react";
 //import ReactDOM from "react-dom";
 import { createRoot } from 'react-dom/client'; // Import createRoot from react-dom/client
-
+import { CartProvider } from "./context/cart";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -27,11 +27,13 @@ const root = createRoot(document.getElementById("root")); // Create a root using
 root.render(
   <AuthProvider>
     <Provider store={store}>
+      <CartProvider>
+
       
       <BrowserRouter>
         <App />
       </BrowserRouter>
-     
+      </CartProvider>
     </Provider>
      </AuthProvider>
 

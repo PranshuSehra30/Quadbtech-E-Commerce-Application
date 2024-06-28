@@ -6,7 +6,7 @@ import Spinner from '../Spinner';
 import { useAuth } from '../../context/auth1';
 export default function PrivateRoute() {
   const [ok, setOK] = useState(false);
-  const [auth,setAuth] =useAuth();
+  const {auth,setAuth} =useAuth();
   
  
 

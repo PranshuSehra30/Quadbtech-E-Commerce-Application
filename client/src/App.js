@@ -77,6 +77,9 @@ import Orders from './pages/user/Orders';
 import { Profile } from './pages/user/Profile';
 import Products from './pages/Admin/Products';
 import UpdateProduct from './pages/Admin/UpdateProduct';
+import Categories from './pages/Categories';
+import CategoryProduct from './pages/CategoryProduct';
+import CartPage from './pages/CartPage';
  // Ensure Header is included
 
 function App() {
@@ -98,7 +101,10 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/cart" element={<CartPage />} />
         <Route path="/policy" element={<Policy />} />
+        <Route path="/categories" element={<Categories />} />
+        <Route path="/category/:slug" element={<CategoryProduct />} />
         {!isAuthenticated && <Route path="/register" element={<Register />} />}
         {!isAuthenticated && <Route path="/login" element={<Login />} />}
         

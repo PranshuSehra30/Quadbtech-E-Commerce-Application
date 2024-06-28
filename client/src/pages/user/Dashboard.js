@@ -4,7 +4,7 @@ import UserMenu from '../../components/layout/UserMenu'
 import { useAuth } from '../../context/auth1';
 
 const Dashboard = () => {
-    const [auth] = useAuth();
+    const {auth} = useAuth();
     return (
     <Layout>
         
