@@ -63,6 +63,10 @@
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/b58f3d37-514b-47ca-9487-66d9877f6714)
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/6d5cdac5-0a53-4a4f-87fe-3b6ed137b2ed)
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/906ed5d8-ceb4-4d4c-9a8b-edab24fbec77)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/26a867f4-9ebe-4984-b42d-184d27cfa155)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/f04e39af-3267-452d-a3d7-1bef805e5361)
+![dbQuadB](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/6ae2c53b-2b36-4410-b26a-dcf118b5d811)
+
 
 <h2>📬 Contact</h2>
 
