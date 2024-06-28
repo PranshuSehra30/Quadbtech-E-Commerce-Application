@@ -43,20 +43,26 @@
 
 - Filters: 🎛️ Products can be filtered based on categories and price range.
   
+  
 **Checkout Process**
 - Shipping Info: 🚚 Shipping Cart  for ease of checkout.
 
   
 
-- Order Details: ℹ️ Details of all ordered items are accessible.
-- Order Confirmation: ✉️ Users receive email notifications with comprehensive order details upon placing an order.
-  
+
+  ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/5e259c2f-3a38-4b85-a8ab-19eb040b6cef)
+
 
   
 **Admin Features**
 - Dashboard: 🖥️ Admins have access to a dedicated dashboard.
 - Product Management: 📝 Admins can add/update/delete products.
 
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/534f5209-f715-4ef7-96db-b951ef2d0f0d)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/37864b92-f024-459b-97c5-1cfc83733717)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/b58f3d37-514b-47ca-9487-66d9877f6714)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/6d5cdac5-0a53-4a4f-87fe-3b6ed137b2ed)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/906ed5d8-ceb4-4d4c-9a8b-edab24fbec77)
 
 <h2>📬 Contact</h2>
 
