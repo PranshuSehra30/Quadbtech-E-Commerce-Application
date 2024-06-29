@@ -81,6 +81,7 @@ import Categories from './pages/Categories';
 import CategoryProduct from './pages/CategoryProduct';
 import CartPage from './pages/CartPage';
 import Search from './pages/Search';
+import ProductDetails from './pages/ProductDetails';
  // Ensure Header is included
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
        {/* Ensure Header is rendered */}
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/product/:slug" element={<ProductDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<CartPage />} />
@@ -107,8 +109,8 @@ function App() {
         <Route path="/categories" element={<Categories />} />
         <Route path="/category/:slug" element={<CategoryProduct />} />
         <Route path="/search" element={<Search />} />
-        {!isAuthenticated && <Route path="/register" element={<Register />} />}
-        {!isAuthenticated && <Route path="/login" element={<Login />} />}
+         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
         
         <Route path="/dashboard" element={<PrivateAdminRoute />}>
         
