@@ -80,6 +80,7 @@ import UpdateProduct from './pages/Admin/UpdateProduct';
 import Categories from './pages/Categories';
 import CategoryProduct from './pages/CategoryProduct';
 import CartPage from './pages/CartPage';
+import Search from './pages/Search';
  // Ensure Header is included
 
 function App() {
@@ -105,6 +106,7 @@ function App() {
         <Route path="/policy" element={<Policy />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/category/:slug" element={<CategoryProduct />} />
+        <Route path="/search" element={<Search />} />
         {!isAuthenticated && <Route path="/register" element={<Register />} />}
         {!isAuthenticated && <Route path="/login" element={<Login />} />}
         

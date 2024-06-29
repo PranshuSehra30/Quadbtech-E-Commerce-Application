@@ -12,6 +12,8 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import { loadUserFromLocalStorage } from './redux/authSlice';
 import { AuthProvider } from "./context/auth1";
+import { SearchProvider } from "./context/Search";
+
 // Load user from local storage if present
 const authData = JSON.parse(localStorage.getItem('authData'));
 if (authData) {
@@ -26,6 +28,7 @@ const root = createRoot(document.getElementById("root")); // Create a root using
 
 root.render(
   <AuthProvider>
+    <SearchProvider>
     <Provider store={store}>
       <CartProvider>
 
@@ -35,6 +38,7 @@ root.render(
       </BrowserRouter>
       </CartProvider>
     </Provider>
+    </SearchProvider>
      </AuthProvider>
 
    
