@@ -8,7 +8,7 @@ import Layout from './../components/layout/Layout';
 
 const CartPage = () => {
   const [auth, setAuth] = useAuth();
-  const [cart, setCart] = useCart();
+  const [cart, setCart, refetchCart] = useCart();
   const [clientToken, setClientToken] = useState("");
   const [instance, setInstance] = useState("");
   const [loading, setLoading] = useState(false);
@@ -48,11 +48,12 @@ const CartPage = () => {
         });
       if (response.status === 200) {
         // If the deletion is successful, update the cart state and localStorage
-        let myCart = [...cart];
-        let index = myCart.findIndex((item) => item._id === pid);
-        myCart.splice(index, 1);
-        setCart(myCart);
-        localStorage.setItem("cart", JSON.stringify(myCart));
+        // let myCart = [...cart];
+        // let index = myCart.findIndex((item) => item._id === pid);
+       //  myCart.splice(index, 1);
+        // setCart(myCart);
+        refetchCart();
+        // localStorage.setItem("cart", JSON.stringify(myCart))
         toast.success("Item removed successfully");
       } else {
         toast.error("Failed to remove item");
@@ -119,9 +120,9 @@ const CartPage = () => {
                   <h5>{auth?.user?.address}</h5>
                   <button
                     className="btn btn-outline-warning"
-                    onClick={() => navigate("/dashboard/user/profile")}
+                    onClick={() => navigate("/dashboard")}
                   >
-                    Update Address
+                   Explore More
                   </button>
                 </div>
               </>
@@ -130,9 +131,9 @@ const CartPage = () => {
                 {auth?.token ? (
                   <button
                     className="btn btn-outline-warning"
-                    onClick={() => navigate("/dashboard/user/profile")}
+                    onClick={() => navigate("/dashboard")}
                   >
-                    Update Address
+                    Explore More
                   </button>
                 ) : (
                   <button
