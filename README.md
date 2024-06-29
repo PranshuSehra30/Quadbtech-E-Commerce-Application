@@ -67,8 +67,8 @@
 - Product Management: 📝 Admins can add/update/delete products.
 -Authentication & Authorization:
 ● Used JWT for user authentication.
-● Implemented middleware to protect routes 
-products should be admin-only).
+-● Implemented middleware to protect routes 
+
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/534f5209-f715-4ef7-96db-b951ef2d0f0d)
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/37864b92-f024-459b-97c5-1cfc83733717)
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/b58f3d37-514b-47ca-9487-66d9877f6714)
