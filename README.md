@@ -47,6 +47,9 @@
 **USER CAN SEARCH A SPECIFIC PRODUCT**
 ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/27bfe8c0-22f0-4bca-9ef7-c227a1a5ef03)
 
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/faa91049-de9e-4d30-a300-4408d254e341)
+
+
 
   
 
