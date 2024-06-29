@@ -1,6 +1,6 @@
 # Quadbtech-E-Commerce-Application
 
-![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/e1599cee-9814-48f2-aa40-db0ff2a65cc0)
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/c59e75d5-2ec1-4201-befc-541a81e6a768)
 
 # Full-Stack E-Store with Admin Dashboard 
 
@@ -44,13 +44,16 @@
 - Filters: 🎛️ Products can be filtered based on categories and price range.
   
   
-**Checkout Process**
-- Shipping Info: 🚚 Shipping Cart  for ease of checkout.
+**USER CAN SEARCH A SPECIFIC PRODUCT**
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/27bfe8c0-22f0-4bca-9ef7-c227a1a5ef03)
+
+![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/faa91049-de9e-4d30-a300-4408d254e341)
+
+
 
   
 
 
-  ![image](https://github.com/PranshuSehra30/Quadbtech-E-Commerce-Application/assets/110589138/5e259c2f-3a38-4b85-a8ab-19eb040b6cef)
 
 
   
